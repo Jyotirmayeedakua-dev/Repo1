@@ -1,16 +1,31 @@
-# Repo1
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Actions Deployment</title>
-</head>
-<body>
+# GitHub Pages Deployment
 
-    <h1>Hello, GitHub Actions!</h1>
+This project demonstrates a simple CI/CD pipeline using GitHub Actions and GitHub Pages.
 
-    <p>This website is deployed automatically using GitHub Actions and GitHub Pages.</p>
+## Project Overview
 
-</body>
-</html>
+Whenever `index.html` is changed and pushed to the `main` branch, GitHub Actions automatically deploys the website to GitHub Pages.
+
+## Technologies Used
+
+- GitHub
+- GitHub Actions
+- GitHub Pages
+- HTML
+- YAML
+
+## Deployment Flow
+
+Developer
+↓
+Git Push
+↓
+GitHub Actions
+↓
+GitHub Pages
+↓
+Live Website
+
+## Deployment URL
+
+https://YOUR-USERNAME.github.io/gh-deployment-workflow/
